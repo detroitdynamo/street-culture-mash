@@ -1,0 +1,35 @@
+body {
+  font-size: 62.5%;
+  background: black;
+  color: white;
+}
+
+#container {
+    width: 1024px;
+    margin: 40px auto;
+}
+
+#navigation {
+    width: 100%;
+    position: absolute;
+    bottom: 72px;
+    margin: 0;
+}
+
+  #navigation a {
+      color: white;
+      font-size: 2.4em;
+      font-family: sans;
+      margin: 0 20px;
+      text-decoration: none;
+  }
+
+  #navigation a.active, #navigation a:hover {
+      text-decoration: underline;
+  }
+  
+img#copyright {
+    margin: 12px 0 12px 300px;
+    position: absolute;
+    bottom: 12px;
+}
