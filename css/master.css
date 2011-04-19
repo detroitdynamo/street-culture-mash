@@ -1,7 +1,7 @@
 body {
   font-size: 62.5%;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 
 #container {
@@ -10,14 +10,13 @@ body {
 }
 
 #navigation {
-    width: 100%;
     position: absolute;
     bottom: 72px;
     margin: 0;
 }
 
   #navigation a {
-      color: white;
+      color: black;
       font-size: 2.4em;
       font-family: sans;
       margin: 0 20px;
@@ -27,6 +26,12 @@ body {
   #navigation a.active, #navigation a:hover {
       text-decoration: underline;
   }
+
+img#logo {
+    position: absolute;
+    bottom: 100px;
+    margin: 12px 0 12px 400px;
+}
   
 img#copyright {
     margin: 12px 0 12px 300px;
@@ -39,3 +44,4 @@ img#detroit-dynamo {
     right: 16px;
     bottom: 16px;
 }
+
