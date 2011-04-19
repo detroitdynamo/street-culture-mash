@@ -33,3 +33,9 @@ img#copyright {
     position: absolute;
     bottom: 12px;
 }
+
+img#detroit-dynamo {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
